@@ -32,6 +32,14 @@ public class Task {
         this.id = id;
     }
 
+    public void update(Task task) {
+        name = task.getName();
+        description = task.getDescription();
+        status = task.getStatus();
+        assignedTo = task.getAssignedTo();
+        dueDate = task.getDueDate();
+    }
+
     public String getId() {
         return id;
     }

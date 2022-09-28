@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
-@Service
+// @Service
 public class TaskServiceHashMap implements TaskService {
     private final ConcurrentHashMap<String, Task> tasks = new ConcurrentHashMap<>();
 
